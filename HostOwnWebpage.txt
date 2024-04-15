@@ -1,0 +1,6 @@
+STEP 2: Now connect the instance using terminal. For Apache2 the default document root is 
+/var/www/html. 
+STEP 3: Edit the .html file using vim or any kind of editor using command “ sudo vim index.html” 
+STEP 4: Edit the .html file according to your needs, you can add .css file as well. 
+STEP 5: Now paste the Ip address in the browser in place of the default webpage, you can see your 
+webpage hosted.
