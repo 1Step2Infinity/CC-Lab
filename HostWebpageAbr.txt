@@ -1,0 +1,16 @@
+PS C:\Users\USER\Downloads> attrib -r .\jarvis-server.pem
+PS C:\Users\USER\Downloads> ssh -i "jarvis-server.pem" ubuntu@ec2-13-232-125-174.ap-south-1.compute.amazonaws.com
+ubuntu@ip-172-31-46-134:~$ sudo apt update
+ubuntu@ip-172-31-46-134:~$ sudo apt install apache2
+ubuntu@ip-172-31-46-134:~$ vim "index.html"
+(opens editor, press shift+ : and type wq) (wq stands for write and quit)(maybe esc + shift + :wq)
+
+ubuntu@ip-172-31-46-134:~$ ls
+index.html
+ubuntu@ip-172-31-46-134:~$ sudo mv index.html /var/www/html
+ubuntu@ip-172-31-46-134:~$ cd var/www/html
+-bash: cd: var/www/html: No such file or directory
+ubuntu@ip-172-31-46-134:~$ cd /var/www/html
+ubuntu@ip-172-31-46-134:/var/www/html$ ls
+index.html
+ubuntu@ip-172-31-46-134:/var/www/html$
